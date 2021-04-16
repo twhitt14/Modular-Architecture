@@ -25,6 +25,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		54440B27262A2E0900527F4A /* Modular-Architecture-Feed.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Modular-Architecture-Feed.xctestplan"; sourceTree = "<group>"; };
 		548BFAB3262A0CA4002618F5 /* Modular_Architecture_Feed.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Modular_Architecture_Feed.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		548BFAB6262A0CA4002618F5 /* Modular_Architecture_Feed.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Modular_Architecture_Feed.h; sourceTree = "<group>"; };
 		548BFAB7262A0CA4002618F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -85,6 +86,7 @@
 		548BFAC0262A0CA4002618F5 /* Modular-Architecture-FeedTests */ = {
 			isa = PBXGroup;
 			children = (
+				54440B27262A2E0900527F4A /* Modular-Architecture-Feed.xctestplan */,
 				548BFAC1262A0CA4002618F5 /* Modular_Architecture_FeedTests.swift */,
 				548BFAC3262A0CA4002618F5 /* Info.plist */,
 			);

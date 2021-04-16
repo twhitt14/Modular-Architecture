@@ -1,0 +1,24 @@
+{
+  "configurations" : [
+    {
+      "id" : "1F139540-41F9-4754-B3C8-D453D9D1244E",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "codeCoverage" : false
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:Modular-Architecture-Feed.xcodeproj",
+        "identifier" : "548BFABB262A0CA4002618F5",
+        "name" : "Modular-Architecture-FeedTests"
+      }
+    }
+  ],
+  "version" : 1
+}
