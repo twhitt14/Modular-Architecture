@@ -10,6 +10,8 @@
 		548BFABD262A0CA4002618F5 /* Modular_Architecture_Feed.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 548BFAB3262A0CA4002618F5 /* Modular_Architecture_Feed.framework */; };
 		548BFAC2262A0CA4002618F5 /* Modular_Architecture_FeedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 548BFAC1262A0CA4002618F5 /* Modular_Architecture_FeedTests.swift */; };
 		548BFAC4262A0CA4002618F5 /* Modular_Architecture_Feed.h in Headers */ = {isa = PBXBuildFile; fileRef = 548BFAB6262A0CA4002618F5 /* Modular_Architecture_Feed.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		548BFAD6262A0EE1002618F5 /* FeedItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 548BFAD5262A0EE1002618F5 /* FeedItem.swift */; };
+		548BFADA262A0F67002618F5 /* FeedLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 548BFAD9262A0F67002618F5 /* FeedLoader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +31,8 @@
 		548BFABC262A0CA4002618F5 /* Modular-Architecture-FeedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Modular-Architecture-FeedTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		548BFAC1262A0CA4002618F5 /* Modular_Architecture_FeedTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modular_Architecture_FeedTests.swift; sourceTree = "<group>"; };
 		548BFAC3262A0CA4002618F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		548BFAD5262A0EE1002618F5 /* FeedItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedItem.swift; sourceTree = "<group>"; };
+		548BFAD9262A0F67002618F5 /* FeedLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedLoader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +76,7 @@
 			isa = PBXGroup;
 			children = (
 				548BFAB6262A0CA4002618F5 /* Modular_Architecture_Feed.h */,
+				548BFADD262A10CA002618F5 /* Feed Feature */,
 				548BFAB7262A0CA4002618F5 /* Info.plist */,
 			);
 			path = "Modular-Architecture-Feed";
@@ -84,6 +89,15 @@
 				548BFAC3262A0CA4002618F5 /* Info.plist */,
 			);
 			path = "Modular-Architecture-FeedTests";
+			sourceTree = "<group>";
+		};
+		548BFADD262A10CA002618F5 /* Feed Feature */ = {
+			isa = PBXGroup;
+			children = (
+				548BFAD5262A0EE1002618F5 /* FeedItem.swift */,
+				548BFAD9262A0F67002618F5 /* FeedLoader.swift */,
+			);
+			path = "Feed Feature";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -195,6 +209,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				548BFADA262A0F67002618F5 /* FeedLoader.swift in Sources */,
+				548BFAD6262A0EE1002618F5 /* FeedItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -392,6 +408,7 @@
 		548BFACB262A0CA4002618F5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = K66S9K53N5;
@@ -410,6 +427,7 @@
 		548BFACC262A0CA4002618F5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = K66S9K53N5;
